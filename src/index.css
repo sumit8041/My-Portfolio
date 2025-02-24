@@ -1,0 +1,298 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-white text-gray-900;
+}
+
+body.dark {
+  @apply bg-gray-900 text-white;
+}
+
+.hover\:rainbow-text {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.hover\:rainbow-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.hover\:rainbow-text:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce:hover {
+  animation: none;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group-hover\:opacity-100 {
+  opacity: 0;
+}
+
+/* styles.css */
+/* Vertical Line */
+@media (min-width: 768px) {
+  .container > div:first-child {
+    padding-left: 5px;
+  }
+}
+
+/* Define the animation for the left side */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Define the animation for the right side */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply animations to the corresponding elements */
+.animate-left {
+  animation: slideInLeft 6s ease-out;
+}
+
+.animate-right {
+  animation: slideInRight 6s ease-out;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999; /* Ensure the modal is on top of other content */
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.resume-image {
+  max-width: 100%;
+  max-height: 90vh;
+}
+.certification-image {
+  max-width: 100%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+/* Add dark mode styles */
+.modal.dark {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.close {
+  color: black;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+/* Color of the scrollbar track */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Color of the scrollbar thumb */
+*::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+/* Color of the scrollbar track */
+*::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+.certificate-slider-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.certificate-slide:hover {
+  transform: scale(1.05);
+}
+
+.image-container {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.certificate-slide:hover .certificate-image {
+  transform: scale(1.1);
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #000;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000;
+}
+.dark .slick-dots li button:before {
+  color: #bbb; /* Light grey for dark mode */
+}
+
+.dark .slick-dots li.slick-active button:before {
+  color: #fff; /* White for active dot in dark mode */
+}
+
+/* Dark mode background and text color adjustments */
+.bg-green-50.dark {
+  background-color: #1a1a1a;
+}
+
+.text-gray-800.dark {
+  color: #f0f1f2;
+}
+
+.text-gray-600.dark {
+  color: #999999;
+}
+
+.bg-[#f0f1f2].dark {
+  background-color: #333333;
+}
+
+.dark .outline-none:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #4caf50; /* Add green outline when focused in dark mode */
+}
+
+/* Adjustments for dark mode button */
+.bg-green-200.dark:hover {
+  background-color: #6b8e23;
+}
+.modal-content {
+  max-width: 80%;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resume-image {
+  width: 100%;
+  height: auto;
+}

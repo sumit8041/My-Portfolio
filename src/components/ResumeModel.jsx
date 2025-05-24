@@ -1,6 +1,6 @@
 import React from "react";
-import resumeImage from "../assets/resume1.png";
-import resumeImage1 from "../assets/resume2.png";
+import resumeImage from "../assets/resume.png";
+
 // Import your resume image
 
 const ResumeModal = ({ closeModal, darkMode }) => {
@@ -14,7 +14,6 @@ const ResumeModal = ({ closeModal, darkMode }) => {
           &times;
         </span>
         <img src={resumeImage} alt="Resume" className="resume-image" />
-        <img src={resumeImage1} alt="Resume1" className="resume-image" />
       </div>
     </div>
   );

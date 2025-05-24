@@ -52,29 +52,34 @@ const AboutSection = () => {
           {/* Left-hand side */}
           <div className="md:w-1/2 mb-6 md:mb-0 animate-left">
             <p className="text-lg mb-4 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left dark:first-letter:text-white first-letter:text-gray-900">
-              Hi, I am Sumit Gupta, a certified Salesforce Administrator and
-              skilled Web Developer with 1.11 years of hands-on experience in
-              JavaScript, Salesforce Administration, and HTML/CSS. My passion
-              lies in streamlining business processes, optimizing Salesforce
-              CRM, and developing interactive web applications that enhance user
-              experience and business efficiency.
+              Hi, I am a skilled and motivated Web Developer with 1.6 years of
+              hands-on experience in JavaScript, React.js, Salesforce
+              Administration, HTML/CSS, and modern front end development
+              frameworks. Over the course of my career, I have developed a
+              strong foundation in web development, CRM management, and user
+              interface design, with a focus on building dynamic, scalable, and
+              user-friendly solutions.
             </p>
             <p className="text-lg mb-4">
-              Throughout my career, I have worked on CRM management, user role
-              customization, workflow automation, and dashboard creation,
-              ensuring that Salesforce aligns seamlessly with business
-              objectives. I take pride in writing clean, efficient, and
-              maintainable code while leveraging my expertise in JavaScript,
-              HTML, and CSS to build responsive, high-performance web
-              applications. <br />I have successfully managed data, streamlined
-              workflows, and customized Salesforce to enhance productivity and
-              optimize business processes. My ability to develop dynamic,
-              user-friendly solutions makes me a valuable asset to any
-              organization seeking innovation and efficiency. <br />
-              Currently, I am actively seeking new opportunities where I can
-              contribute my technical expertise, problem-solving abilities, and
-              continuous learning mindset to drive growth and success for a
-              forward-thinking organization.
+              Motivated and detail-oriented Web Developer & Salesforce
+              Administrator with 1.6 years of hands-on experience in building
+              dynamic, scalable, and user-focused digital solutions. Skilled in
+              JavaScript, React.js, HTML5, CSS3, and Bootstrap, with a strong
+              command over responsive design and component-based architecture.
+              Proficient in customizing and managing Salesforce CRM, including
+              data handling, object customization, and workflow automation to
+              optimize productivity and align with business needs. Experienced
+              in version control using Git/GitHub, and adept at deploying
+              projects via Netlify and GitHub Pages. Competent in using Canva
+              for UI/UX mockups and front-end design planning. Past
+              contributions at OnePlus and Flipkart (Jeeves Consumer Services)
+              involved supporting digital operations, assisting users with
+              software/cloud tools like Salesforce and MS Office, and improving
+              internal user interface experiences. Currently seeking a
+              challenging opportunity to contribute technical expertise, clean
+              coding practices, and a customer-centric mindset to
+              forward-thinking teams focused on delivering seamless web
+              experiences.
             </p>
             <div className="flex space-x-4 mt-4">
               <button

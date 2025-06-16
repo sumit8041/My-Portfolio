@@ -52,34 +52,31 @@ const AboutSection = () => {
           {/* Left-hand side */}
           <div className="md:w-1/2 mb-6 md:mb-0 animate-left">
             <p className="text-lg mb-4 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:mr-3 first-letter:float-left dark:first-letter:text-white first-letter:text-gray-900">
-              Hi, I am a skilled and motivated Web Developer with 1.6 years of
-              hands-on experience in JavaScript, React.js, Salesforce
-              Administration, HTML/CSS, and modern front end development
-              frameworks. Over the course of my career, I have developed a
-              strong foundation in web development, CRM management, and user
-              interface design, with a focus on building dynamic, scalable, and
-              user-friendly solutions.
+              Hi, I bring over 2 years of professional experience in customer
+              and technical support roles, having worked with leading brands
+              such as Apple, OnePlus, and Flipkart. In these roles, I have
+              developed strong problem-solving, communication, and
+              troubleshooting skills while handling customer queries, technical
+              issues, and hardware/software support through chat, email, and CRM
+              platforms. My background includes hands-on experience with tools
+              like OCRM and ServiceNow, as well as supporting users across iOS,
+              macOS, and Android systems. While I am a fresher in the IT
+              development sector, I am a certified Salesforce Administrator and
+              a skilled Web Developer with strong proficiency in JavaScript,
+              React.js, HTML, and CSS. I am now eager to transition into a
+              technical role where I can apply my customer service experience
+              alongside my growing technical expertise to deliver impactful
+              digital solutions.
             </p>
             <p className="text-lg mb-4">
-              Motivated and detail-oriented Web Developer & Salesforce
-              Administrator with 1.6 years of hands-on experience in building
-              dynamic, scalable, and user-focused digital solutions. Skilled in
-              JavaScript, React.js, HTML5, CSS3, and Bootstrap, with a strong
-              command over responsive design and component-based architecture.
-              Proficient in customizing and managing Salesforce CRM, including
-              data handling, object customization, and workflow automation to
-              optimize productivity and align with business needs. Experienced
-              in version control using Git/GitHub, and adept at deploying
-              projects via Netlify and GitHub Pages. Competent in using Canva
-              for UI/UX mockups and front-end design planning. Past
-              contributions at OnePlus and Flipkart (Jeeves Consumer Services)
-              involved supporting digital operations, assisting users with
-              software/cloud tools like Salesforce and MS Office, and improving
-              internal user interface experiences. Currently seeking a
-              challenging opportunity to contribute technical expertise, clean
-              coding practices, and a customer-centric mindset to
-              forward-thinking teams focused on delivering seamless web
-              experiences.
+              Currently transitioning into the IT development sector as a
+              certified Salesforce Administrator and skilled Web Developer.
+              Technically proficient in JavaScript, React.js, HTML5, and CSS3,
+              with experience in building responsive, user-centric web
+              applications and UI designs using tools like Canva, GitHub, and
+              Netlify. Eager to contribute my blend of customer support
+              expertise and growing technical skills to a forward-thinking
+              organization focused on delivering seamless digital solutions.
             </p>
             <div className="flex space-x-4 mt-4">
               <button

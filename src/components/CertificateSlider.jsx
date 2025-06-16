@@ -8,7 +8,7 @@ import SF_O from "../assets/SF_O.png";
 import SF_Admin from "../assets/SF_Admin.png";
 import JS from "../assets/JS.png";
 import SEO from "../assets/SEO.png";
-import MYSQL from "../assets/MYSQL.png";
+import KISH from "../assets/Kish.png";
 // import javafull from '../assets/javafull.jpg';
 // import postgreSQL from '../assets/postgreSQL.jpg';
 // import pythonds from '../assets/Pythonds.jpg';
@@ -23,7 +23,7 @@ const certificates = [
   { image: SF_Admin },
   { image: JS },
   { image: SEO },
-  { image: MYSQL },
+  { image: KISH },
   //   { image: javafull },
   //   { image: postgreSQL },
   //   { image: pythonds },

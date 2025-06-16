@@ -1,5 +1,5 @@
 import React from "react";
-import resumeImage from "../assets/resume.png";
+import resumeImage from "../assets/Resume.png";
 
 // Import your resume image
 

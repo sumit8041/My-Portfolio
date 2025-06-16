@@ -1,4 +1,4 @@
-// import ngrt from "../assets/Ngrt.png";
+import ngrt from "../assets/Ngrt.png";
 import oneplus from "../assets/Oneplus.png";
 import Jeeves from "../assets/Jeeves.png";
 const ExperienceData = [

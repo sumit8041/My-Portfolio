@@ -20,7 +20,7 @@ const ExperienceData = [
     role: "Repair Specalist",
     company: "OnePlus",
     description: [
-      "Worked as CRE for Oneplus Care.",
+      "This was a contractual job for OnePlus in Pune.",
       "Handling tickets that are logged via Email and Chat on OCRM.",
       "Assisting Users with the software issues on their Smartphones.",
       "Deploying updates on users’ system and smart phones.",

@@ -6,6 +6,8 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import BuyMeACoffee from "./components/BuyMeACoffee";
 import CertificateSlider from "./components/CertificateSlider";
+import Projects from "./components/Projects";
+import "./ProjectSection.css";
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -29,7 +31,7 @@ const App = () => {
       <AboutSection />
       <Experience />
       <Education />
-      {/* <Projects/> */}
+      <Projects />
       <CertificateSlider />
       <BuyMeACoffee />
     </>

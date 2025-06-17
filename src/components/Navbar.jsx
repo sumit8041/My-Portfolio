@@ -69,7 +69,12 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
               >
                 Education
               </a>
-              {/* <a href="#projects" className="text-sm md:text-lg font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-yellow-300 px-2 md:px-3 py-1 md:py-2 rounded-md transition duration-300">Projects</a> */}
+              <a
+                href="#projects"
+                className="text-sm md:text-lg font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-yellow-300 px-2 md:px-3 py-1 md:py-2 rounded-md transition duration-300"
+              >
+                Projects
+              </a>
               <a
                 href="#certifications"
                 className="text-sm md:text-lg font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-yellow-300 px-2 md:px-3 py-1 md:py-2 rounded-md transition duration-300 "
@@ -123,12 +128,12 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
             >
               Education
             </a>
-            {/* <a
+            <a
               href="#projects"
               className="text-sm md:text-lg font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-yellow-300 block px-3 py-2 rounded-md transition duration-300"
             >
               Projects
-            </a> */}
+            </a>
             <a
               href="#certifications"
               className="text-sm md:text-lg font-medium text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-yellow-300 block px-3 py-2 rounded-md transition duration-300"

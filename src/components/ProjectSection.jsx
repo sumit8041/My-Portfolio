@@ -1,22 +1,21 @@
 import React from "react";
 import ProjectData from "./ProjectData";
-import "./Projects.css";
 
-const Projects = () => {
+const ProjectSection = () => {
   return (
-    <section className="projects-section">
-      <h2 className="section-heading">My Projects</h2>
-      <div className="projects-grid">
+    <div className="project-section">
+      <h2 className="section-title">My Projects</h2>
+      <div className="project-grid">
         {ProjectData.map((project, index) => (
           <div className="project-card" key={index}>
             <img
               src={project.image}
               alt={project.title}
-              className="project-img"
+              className="project-image"
             />
             <h3 className="project-title">{project.title}</h3>
-            <p className="project-desc">{project.description}</p>
-            <div className="project-tags">
+            <p className="project-description">{project.description}</p>
+            <div className="tag-container">
               {project.tags.map((tag, i) => (
                 <span key={i} className="tag">
                   {tag}
@@ -34,8 +33,8 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
-export default Projects;
+export default ProjectSection;
